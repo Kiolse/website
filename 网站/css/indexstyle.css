@@ -1,0 +1,37 @@
+
+#container{
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+}
+#header{
+	background: blue;
+	color: white;
+}
+#logo{
+    float: left;
+}
+#search-box{
+	float: center;
+}
+#login{
+	float: right;
+}
+#content{
+	padding: 20px;
+}
+#nav{
+	border: solid;
+	border-color: #A9A9A9; 
+	/*background: red;*/
+	width: 300px;
+	float: left;
+}
+#main{
+	background: yellow;
+	width: 650px;
+	float: right;
+}
+#footer{
+
+}
