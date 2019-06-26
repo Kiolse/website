@@ -1,37 +1,143 @@
-
-#container{
-	background-color: white;
+body{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.container{
+	
 	width: 1000px;
 	margin: auto;
 }
-#header{
-	background: blue;
+.header{
+	background: rgba(255,255,255,0.4);
+	color: black;
+	display: flex;
+	align-items: center;
+}
+.logo{
+    flex: 1;
+}
+.search-box{
+	flex: 2;
+	display: flex;
+	margin-right: 120px;
+}
+.search-txt{
+	flex: 8;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #FFFFFF;
+	padding: 0;
+	width: 400px;
+	outline: none;
 	color: white;
+	border-radius: 25px;
 }
-#logo{
-    float: left;
+.search-btn{
+	flex:1;
+	margin: 20px auto;
+	border: 0;
+	background-position: absolute;
+	background: #22F7B4;
+	display: block;
+	text-align: center;
+	border: 2px solid #22F7B4;
+	padding:0；
+	outline: none;
+	color: white;
+	border-radius: 50px;
+	cursor: pointer;
 }
-#search-box{
-	float: center;
+.search-btn input[type = "submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 3px auto;
+	text-align: center;
+	border: 2px solid #22F7B4;
+	padding: 8px 8px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+	
+	cursor: pointer;
 }
-#login{
+.login{
 	float: right;
+
+
+
+	
 }
-#content{
-	padding: 20px;
+.login input[type = "submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 3px auto;
+	text-align: center;
+	border: 2px solid #22F7B4;
+	padding: 8px 8px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+	
+	cursor: pointer;
 }
-#nav{
-	border: solid;
-	border-color: #A9A9A9; 
-	/*background: red;*/
-	width: 300px;
+.content{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 450px;
+}
+.nav{
+	height: 450px;
+	background-color: rgba(255,255,255,0.2);
+	width: 330px;
 	float: left;
+
 }
-#main{
-	background: yellow;
+h2{
+	padding-left: 40px;
+}
+
+li{
+	padding-left: 10px;
+	padding-top: 4px;
+}
+.main{
+	background-color: rgba(255,255,255,0.2);
 	width: 650px;
 	float: right;
 }
-#footer{
+	
+.box1,.box3{
+	border: solid;
+	width: 200px;
+	height: 100px;
+	margin: 60px;
+	float: left;
+	border-radius: 10px;
+}
+.box2,.box4{
+	border: solid;
+	width: 200px;
+	height: 100px;
+	margin: 60px;
+	float: right;
+	border-radius: 10px;
+}
 
+#icon{
+	padding: 20px;
+}
+.footer{
+	background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    height: 25px;
 }

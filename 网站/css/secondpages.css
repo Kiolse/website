@@ -1,0 +1,25 @@
+.content{
+	height: 680px;
+}
+.nav{
+	height: 680px;
+}
+.main{
+    height: 680px;
+}
+.box5{
+	border: solid;
+	width: 200px;
+	height: 100px;
+	margin: 60px;
+	float: left;
+	border-radius: 10px;
+}
+.box6{
+	border: solid;
+	width: 200px;
+	height: 100px;
+	margin: 60px;
+	float: right;
+	border-radius: 10px;
+}
