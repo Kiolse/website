@@ -1,0 +1,114 @@
+#center-circle {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    margin-left: 42%;
+    margin-top: 10%;
+    border: 0px solid;
+    border-radius: 120px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 64px 24px rgba(255, 255, 255, 0.5), inset 0px 0px 64px 24px rgba(255, 255, 255, 0.5);
+    -webkit-animation: bounce-down 6.4s linear infinite;
+    animation: bounce-down 6.4s linear infinite;
+}
+
+@-webkit-keyframes bounce-down {
+    25% {
+        -webkit-transform: translateY(-16px);
+    }
+    50%,
+    100% {
+        -webkit-transform: translateY(0);
+    }
+    75% {
+        -webkit-transform: translateY(16px);
+    }
+}
+
+@keyframes bounce-down {
+    25% {
+        transform: translateY(-16px);
+    }
+    50%,
+    100% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(16px);
+    }
+}
+
+.side-circle {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    margin-top: 15%;
+    border: 0px solid;
+    border-radius: 80px;
+}
+
+#left-circle {
+    margin-left: 10%;
+    background: linear-gradient(135deg, #E8B80E 0%, #CC2602 100%);
+    -webkit-animation: moveup 10s linear infinite;
+    animation: moveup 10s linear infinite;
+}
+
+@-webkit-keyframes moveup {
+    25% {
+        -webkit-transform: translateY(160px);
+    }
+    50%,
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+    75% {
+        -webkit-transform: translateY(-160px);
+    }
+}
+
+@keyframes moveup {
+    25% {
+        -webkit-transform: translateY(160px);
+    }
+    50%,
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+    75% {
+        -webkit-transform: translateY(-160px);
+    }
+}
+
+#right-circle {
+    margin-left: 80%;
+    background: linear-gradient(45deg, #1F09ED 0%, #F211FE 100%);
+    -webkit-animation: movedown 10s linear infinite;
+    animation: movedown 10s linear infinite;
+}
+
+@-webkit-keyframes movedown {
+    25% {
+        -webkit-transform: translateY(-160px);
+    }
+    50%,
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+    75% {
+        -webkit-transform: translateY(160px);
+    }
+}
+
+@keyframes movedown {
+    25% {
+        -webkit-transform: translateY(-160px);
+    }
+    50%,
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+    75% {
+        -webkit-transform: translateY(160px);
+    }
+}
